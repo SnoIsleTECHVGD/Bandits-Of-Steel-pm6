@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: b843c5bdd3d009f48bc27f3dd82f9e0d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wild Bandit
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b2057b39802ef8249b1dc4628c9f4959, type: 3}
+  - {fileID: 12800000, guid: f116eeb5d56b64b40a74f84d4509b0ec, type: 3}
+  - {fileID: 12800000, guid: 584241f6d83663641a7dda0875776f8a, type: 3}
+  - {fileID: 12800000, guid: 20f0d21b715120a4dac9a1d6dd52cbb3, type: 3}
+  - {fileID: 12800000, guid: 842979930f950ec4cb5da9d8f757d6ab, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
