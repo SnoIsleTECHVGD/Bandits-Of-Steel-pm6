@@ -1,16 +1,15 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CamFollow : MonoBehaviour
 {
-
-    public float FlollowSpeed = 2f;
     public Transform target;
+    public float smoothSpeed = 2f;
+    public Vector3 offset;
    
-    void Update()
+    void LateUpdate()
     {
-        Vector3 newPos = new Vector3(target.position.x, target.position.y, -10f);
-        transform.position = Vector3.Slerp(transform.position,newPos,FollowSpeed * time.deltaTime);
+        transform.position = target.position + offset;
     }
 }
