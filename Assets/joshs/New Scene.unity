@@ -2328,6 +2328,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6309024758387211962, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6309024758387211964, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2386,7 +2390,7 @@ PrefabInstance:
       objectReference: {fileID: 1446607799}
     - target: {fileID: 6309024758387211965, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6309024758387211965, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: maxDistance
@@ -2402,6 +2406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4389757380178799489, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+    - {fileID: 6309024758387211963, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
 --- !u!1 &6309024758579451167 stripped
 GameObject:
@@ -2415,7 +2420,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6309024758579451167}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5c194acfe50d35449c0bceebc396aaa, type: 3}
   m_Name: 
@@ -2423,3 +2428,17 @@ MonoBehaviour:
   speed: 2
   range: 10
   maxDistance: 10
+--- !u!114 &6309024758579451174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309024758579451167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e628e318d2b48114c9c75161b55a7b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaitBetweenWobbles: 0.1
+  Intensity: 47.9
