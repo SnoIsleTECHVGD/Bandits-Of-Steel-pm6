@@ -2034,6 +2034,13 @@ MonoBehaviour:
   target: {fileID: 1446607803}
   smoothSpeed: 10
   offset: {x: 0, y: 0, z: -20}
+<<<<<<< HEAD:Assets/Scenes/base game.unity
+--- !u!4 &1372433223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4102037435915085619, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+  m_PrefabInstance: {fileID: 6309024758579451166}
+  m_PrefabAsset: {fileID: 0}
+=======
 --- !u!1 &1387114935
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2203,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 586f74be7cb54272da20903cb834ea088d75bbb7:Assets/links/Scenes/Game.unity
 --- !u!1 &1446607799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3417519439290010052, guid: 595796032647ae147bb7e20040740eb4, type: 3}
@@ -2753,6 +2761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 3417519439290010052, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3417519439290010056, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2805,6 +2817,10 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8698409431943762315, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: m_Name
+      value: bulletpos
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 595796032647ae147bb7e20040740eb4, type: 3}
 --- !u!1001 &6309024758579451166
@@ -2814,6 +2830,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4102037435915085619, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.197
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894450407261896694, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3890377347241334485, guid: dcedd4e3bd5ebed47b0f6255f7da23bf, type: 3}
+    - target: {fileID: 5894450407261896694, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: bulletpos
+      value: 
+      objectReference: {fileID: 1372433223}
     - target: {fileID: 6309024758387211962, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2823,12 +2851,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6309024758387211964, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.7228475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309024758387211964, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.88
+      value: -1.43
       objectReference: {fileID: 0}
     - target: {fileID: 6309024758387211964, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.18
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 6309024758387211964, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2888,12 +2920,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6309024758387211966, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_Name
-      value: enemy
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309024758387211966, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 4389757380178799489, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
-    - {fileID: 6309024758387211963, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+<<<<<<< HEAD:Assets/Scenes/base game.unity
+=======
 --- !u!1 &6309024758579451167 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309024758387211966, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
@@ -2928,3 +2965,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaitBetweenWobbles: 0.1
   Intensity: 47.9
+>>>>>>> 586f74be7cb54272da20903cb834ea088d75bbb7:Assets/links/Scenes/Game.unity
