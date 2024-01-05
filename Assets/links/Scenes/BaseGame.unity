@@ -2206,6 +2206,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3417519439290010056, guid: 595796032647ae147bb7e20040740eb4, type: 3}
   m_PrefabInstance: {fileID: 3417519439995138675}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1456099147 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4102037435915085619, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+  m_PrefabInstance: {fileID: 6309024758579451166}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1466931330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2753,6 +2758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 3417519439290010052, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3417519439290010056, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2814,6 +2823,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5894450407261896694, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 3890377347241334485, guid: dcedd4e3bd5ebed47b0f6255f7da23bf, type: 3}
+    - target: {fileID: 5894450407261896694, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
+      propertyPath: bulletpos
+      value: 
+      objectReference: {fileID: 1456099147}
     - target: {fileID: 6309024758387211962, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2899,21 +2916,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6309024758387211966, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
   m_PrefabInstance: {fileID: 6309024758579451166}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6309024758579451168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309024758579451167}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5c194acfe50d35449c0bceebc396aaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  range: 10
-  maxDistance: 10
 --- !u!114 &6309024758579451174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2923,8 +2925,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6309024758579451167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e628e318d2b48114c9c75161b55a7b6e, type: 3}
+  m_Script: {fileID: 11500000, guid: d5e8292c178606247a30643a01c81773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaitBetweenWobbles: 0.1
-  Intensity: 47.9
+  force: 30
