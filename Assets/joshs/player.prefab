@@ -32,8 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.4, y: -3.24, z: 0}
   m_LocalScale: {x: 0.9708, y: 1.992664, z: 0.9708}
-  m_Children:
-  - {fileID: 5997669133702802732}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -166,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 3890377347241334485, guid: dcedd4e3bd5ebed47b0f6255f7da23bf, type: 3}
-  bulletpos: {fileID: 5997669133702802732}
+  bulletpos: {fileID: 0}
 --- !u!114 &1322646884088265015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,33 +179,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 10
---- !u!1 &8698409431943762315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5997669133702802732}
-  m_Layer: 0
-  m_Name: pbulletpos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5997669133702802732
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8698409431943762315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3417519439290010056}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
