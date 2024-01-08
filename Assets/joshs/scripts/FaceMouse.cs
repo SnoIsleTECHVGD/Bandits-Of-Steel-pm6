@@ -16,6 +16,6 @@ public class FaceMouse : MonoBehaviour
         Vector2 direction = new Vector2(
             mousePosition.x - transform.position.x,
             mousePosition.y - transform.position.y);
-        transform.right= direction;
+        transform.up= direction;
     }
 }
