@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 3baf6b37524a76d40960bf21eec4f0d1
   - enabled: 1
-    path: Assets/links/Scenes/Blank.unity
-    guid: 20f22e01eb7b2ff4fa36068ce17c2832
+    path: Assets/links/Scenes/BaseGame.unity
+    guid: a3150020abbbe9b4ebeaad8c47c9e481
   - enabled: 1
-    path: Assets/Scenes/Combat Mode UI.unity
-    guid: 2587c249317f2a84ba9cdf45253011e9
+    path: Assets/Scenes/Pause Menu.unity
+    guid: e28931827b5aeb745808523e28edaac1
+  - enabled: 1
+    path: Assets/Scenes/Shop UI.unity
+    guid: 779071936099e494a8947281be01bd11
   - enabled: 1
     path: Assets/Scenes/GameOver Screen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
