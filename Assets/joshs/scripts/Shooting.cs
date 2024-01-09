@@ -7,15 +7,16 @@ public class Shooting : MonoBehaviour
     public Transform FirePoint;
     public GameObject bulletPrefab;
     public float bulletForce = 20f;
- 
+    public float nextProjectile = 0.0f;
+    public float projectileCoolDown = 1.0f;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButtonDown("Fire1") && Time.time > nextProjectile)
         {
             Shoot();
-
+            nextProjectile = Time.time + projectileCoolDown;
         }
     }
     void Shoot( )
