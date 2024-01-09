@@ -135,3 +135,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 50
+  distance: 10
+  distanceBetween: 10
