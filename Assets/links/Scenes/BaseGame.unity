@@ -2994,6 +2994,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7493436362467401562, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 3890377347241334485, guid: 7dc1f1d1da3a8724a8a4cbc909313648, type: 3}
     - target: {fileID: 8698409431943762315, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: m_Name
       value: firepoint
