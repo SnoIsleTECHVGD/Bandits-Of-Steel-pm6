@@ -3405,6 +3405,13 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.29
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 6260316736241799748, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> 29b0e775300776847f036722ecc801641c4dba43
     - target: {fileID: 7493436362467401562, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: bulletPrefab
       value: 
