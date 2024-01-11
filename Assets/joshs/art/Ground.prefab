@@ -377,19 +377,19 @@ Tilemap:
   - m_RefCount: 12
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.986642, g: 0.4755644, b: 0.5176191, a: 1}
+    m_Data: {r: 0.76378644, g: 0.33843893, b: 0.36515498, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.8120308, g: 0.5463587, b: 0.55674577, a: 1}
+    m_Data: {r: 0.72887313, g: 0.3552707, b: 0.40184525, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.95825654, g: 0.5568429, b: 0.6791609, a: 1}
+    m_Data: {r: 0.9373464, g: 0.5085863, b: 0.53214204, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.7895289, g: 0.38073364, b: 0.42336026, a: 1}
+    m_Data: {r: 0.8226858, g: 0.4281286, b: 0.44423485, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.7891594, g: 0.4791372, b: 0.5064521, a: 1}
+    m_Data: {r: 0.9275909, g: 0.5650205, b: 0.6499874, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.73778766, g: 0.40181655, b: 0.49362886, a: 1}
+    m_Data: {r: 0.7264004, g: 0.2938202, b: 0.36991352, a: 1}
   - m_RefCount: 1
-    m_Data: {r: 0.95476747, g: 0.5160116, b: 0.60951734, a: 1}
+    m_Data: {r: 0.82074517, g: 0.35947466, b: 0.47858116, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -455,14 +455,14 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 2.7, y: 2.7, z: 0}
+  m_ChunkCullingBounds: {x: 5.6538463, y: 5.6538463, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &9153454765158016232
+--- !u!114 &7417916229430504997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
