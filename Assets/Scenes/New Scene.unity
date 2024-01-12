@@ -13237,51 +13237,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: m_Size.x
-<<<<<<<< HEAD:Assets/Scenes/BaseGame.unity
-      value: 0.30639446
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_Size.y
-      value: 0.14844462
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.058372736
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.07897489
-========
-      value: 0.15208288
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_Size.y
-      value: 0.32471243
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0076159462
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.048234817
->>>>>>>> 2e0295d4bfe63938ae7aeb4b0ef5400993d7850e:Assets/Scenes/New Scene.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-<<<<<<<< HEAD:Assets/Scenes/BaseGame.unity
-========
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.32
-      objectReference: {fileID: 0}
->>>>>>>> 2e0295d4bfe63938ae7aeb4b0ef5400993d7850e:Assets/Scenes/New Scene.unity
     - target: {fileID: 7493436362467401562, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: bulletPrefab
       value: 
@@ -13469,11 +13429,6 @@ PrefabInstance:
     - target: {fileID: 5894450407261896694, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: bulletpos
       value: 
-<<<<<<<< HEAD:Assets/Scenes/BaseGame.unity
-      objectReference: {fileID: 741746007}
-========
-      objectReference: {fileID: 1049532185}
->>>>>>>> 2e0295d4bfe63938ae7aeb4b0ef5400993d7850e:Assets/Scenes/New Scene.unity
     - target: {fileID: 6309024758387211962, guid: b977dd80d0d83f64cb3c740cf68f3acc, type: 3}
       propertyPath: m_Enabled
       value: 1
