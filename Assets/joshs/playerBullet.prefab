@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1376081700792795852}
   - component: {fileID: 7299440831400761506}
   - component: {fileID: 4848874341854019265}
-  - component: {fileID: 9084103611977132069}
+  - component: {fileID: -1784526540595278811}
+  - component: {fileID: -9010935946946514793}
   m_Layer: 0
-  m_Name: PlayerBullet
+  m_Name: playerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +96,7 @@ CapsuleCollider2D:
   m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -122,16 +123,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &9084103611977132069
+--- !u!114 &-1784526540595278811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3890377347241334485}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e8292c178606247a30643a01c81773, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e9eebf769afbb94e8ac9e638f2f6e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 50
+  health: 0
+  attack: 10
+  defence: 0
+--- !u!114 &-9010935946946514793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890377347241334485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e389b183d825545b55a04a0b1ad55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
