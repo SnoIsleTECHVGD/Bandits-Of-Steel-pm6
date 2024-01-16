@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 6309024758387211965}
   - component: {fileID: 6309024758387211962}
   - component: {fileID: 6309024758387211963}
-  - component: {fileID: 6681388206578958022}
   - component: {fileID: 206286448143671734}
   - component: {fileID: 5894450407261896694}
   - component: {fileID: 1035492258364401171}
@@ -110,8 +109,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: adb865d43bcf4ce4e885a0e132970faf, type: 3}
+  m_SortingOrder: 15
+  m_Sprite: {fileID: 21300000, guid: 5bfee8cdcf3f7034e8c95f3446ff35ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,13 +128,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6309024758387211966}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba77133781b436e4daa279e8c628c9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3417519439290010052, guid: 595796032647ae147bb7e20040740eb4, type: 3}
-  speed: 10
+  speed: 2
   distanceBetween: 10
 --- !u!61 &6309024758387211962
 BoxCollider2D:
@@ -153,7 +152,7 @@ BoxCollider2D:
   m_Offset: {x: -0.0050283857, y: -0.0077824295}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5033944, y: 0.17187154}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -184,21 +183,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6681388206578958022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309024758387211966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5c194acfe50d35449c0bceebc396aaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  range: 10
-  maxDistance: 10
 --- !u!114 &206286448143671734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,11 +210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c5f1f623736fd49891864159baeec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
-  bulletpos: {fileID: 0}
+  bullet: {fileID: 3890377347241334485, guid: dcedd4e3bd5ebed47b0f6255f7da23bf, type: 3}
+  bulletpos: {fileID: 4102037435915085619}
   distance: 0
   distanceBetween: 0
-  player: {fileID: 0}
+  player: {fileID: 2824440191226440316, guid: 67613eac3b3cd1746ad7d2780f3fb760, type: 3}
 --- !u!114 &1035492258364401171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +230,7 @@ MonoBehaviour:
   health: 50
   attack: 0
   defence: 0
+  speed: 0
 --- !u!114 &4174299826092689918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,8 +244,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  range: 400
-  maxDistance: 400
+  range: 50
+  maxDistance: 2
 --- !u!114 &6994195251133170695
 MonoBehaviour:
   m_ObjectHideFlags: 0
