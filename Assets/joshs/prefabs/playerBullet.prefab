@@ -92,7 +92,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3890377347241334485}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -131,7 +131,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 3890377347241334485}
   m_Enabled: 0
   m_EditorHideFlags: 0
+<<<<<<< HEAD:Assets/joshs/playerBullet.prefab
   m_Script: {fileID: 11500000, guid: d5e8292c178606247a30643a01c81773, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: 7e9eebf769afbb94e8ac9e638f2f6e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  attack: 10
+  defence: 0
+  speed: 0
+--- !u!114 &-9010935946946514793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890377347241334485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e389b183d825545b55a04a0b1ad55e, type: 3}
+>>>>>>> dfdeaaa2462e1c698a2b22a34975046b7c96e16a:Assets/joshs/prefabs/playerBullet.prefab
   m_Name: 
   m_EditorClassIdentifier: 
   force: 50
