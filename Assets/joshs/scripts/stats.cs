@@ -1,5 +1,5 @@
-
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class stats : MonoBehaviour
@@ -15,6 +15,7 @@ public class stats : MonoBehaviour
     {
         HealingItem item = new HealingItem();
         items.Add(new ItemList(item, item.GiveName(), 1));
+        StartCoroutine(CallItemUpdate());
     }
 
     void Update()
@@ -29,6 +30,7 @@ public class stats : MonoBehaviour
             i.item.Update(this, i.stacks);
         }
         yield return new WaitForSeconds(1);
+        StartCoroutine(CallItemUpdate());
     }
 }
 
