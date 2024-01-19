@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba77133781b436e4daa279e8c628c9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 3417519439290010052, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+  player: {fileID: 2847521392728100437, guid: b2792eebe7687ca4daa4ebc8cb7b02b1, type: 3}
   speed: 2
   distanceBetween: 10
 --- !u!61 &6309024758387211962
@@ -212,9 +212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 3890377347241334485, guid: dcedd4e3bd5ebed47b0f6255f7da23bf, type: 3}
   bulletpos: {fileID: 4102037435915085619}
-  distance: 0
-  distanceBetween: 0
-  player: {fileID: 2824440191226440316, guid: 67613eac3b3cd1746ad7d2780f3fb760, type: 3}
+  distance: 20
+  distanceBetween: 30
+  player: {fileID: 7821532795668097106, guid: 888624f101b738842b8566b1aad0f5a6, type: 3}
 --- !u!114 &1035492258364401171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   range: 50
-  maxDistance: 2
+  maxDistance: 10
 --- !u!114 &6994195251133170695
 MonoBehaviour:
   m_ObjectHideFlags: 0
