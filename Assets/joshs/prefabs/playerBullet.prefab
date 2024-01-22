@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4848874341854019265}
   - component: {fileID: -1784526540595278811}
   - component: {fileID: -9010935946946514793}
+  - component: {fileID: 1883919916599641286}
+  - component: {fileID: 679900139648608011}
   m_Layer: 0
   m_Name: playerBullet
   m_TagString: Untagged
@@ -96,12 +98,12 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.0000002, y: 2.0000005}
-  m_Direction: 1
+  m_Offset: {x: -0.002265714, y: -6.741524e-17}
+  m_Size: {x: 0.9996968, y: 2.0000002}
+  m_Direction: 0
 --- !u!50 &4848874341854019265
 Rigidbody2D:
   serializedVersion: 4
@@ -151,3 +153,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e389b183d825545b55a04a0b1ad55e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1883919916599641286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890377347241334485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413dd0e0215a50a448cb1c4aa462aa1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &679900139648608011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890377347241334485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc5aee28179d3e4f8872b9e93334570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 0

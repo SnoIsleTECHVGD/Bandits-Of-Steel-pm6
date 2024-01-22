@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7821532795668097119}
   - component: {fileID: 7821532795668097116}
   - component: {fileID: 7821532795668097117}
-  - component: {fileID: 4674622453616054812}
   - component: {fileID: 7045044915615836616}
   - component: {fileID: -4547089750701670223}
   - component: {fileID: -8609158650238716420}
@@ -127,9 +126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c194acfe50d35449c0bceebc396aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  range: 50
-  maxDistance: 20
+  speed: 4
+  range: 5
+  maxDistance: 100
 --- !u!114 &7821532795668097117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,22 +144,6 @@ MonoBehaviour:
   rotateSpeed: 60
   wobbleAng: 8
   startWobble: 361
---- !u!114 &4674622453616054812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7821532795668097106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e9eebf769afbb94e8ac9e638f2f6e43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  attack: 0
-  defence: 0
-  speed: 0
 --- !u!114 &7045044915615836616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,8 +185,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_LinearDrag: 1
+  m_AngularDrag: 0.8
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0

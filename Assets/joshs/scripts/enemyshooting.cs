@@ -9,18 +9,18 @@ public class enemyshooting : MonoBehaviour
     public float distance;
     public float distanceBetween;
     private float timer;
-    public GameObject player;
+    public GameObject npc;
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("player");
+        npc = GameObject.Find("npc");
     }
 
     // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
+        distance = Vector2.Distance(transform.position, npc.transform.position);
+        Vector2 direction = npc.transform.position - transform.position;
         direction.Normalize();
 
         if (distance < distanceBetween)
