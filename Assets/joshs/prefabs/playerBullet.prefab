@@ -12,12 +12,16 @@ GameObject:
   - component: {fileID: 1376081700792795852}
   - component: {fileID: 7299440831400761506}
   - component: {fileID: 4848874341854019265}
+<<<<<<< HEAD
   - component: {fileID: -1784526540595278811}
   - component: {fileID: -9010935946946514793}
   - component: {fileID: 1883919916599641286}
   - component: {fileID: 679900139648608011}
+=======
+  - component: {fileID: 9084103611977132069}
+>>>>>>> fdffa6097cc43957fb96e8231f7af9814cb1f7e1
   m_Layer: 0
-  m_Name: playerBullet
+  m_Name: PlayerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,15 +129,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &-1784526540595278811
+--- !u!114 &9084103611977132069
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3890377347241334485}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
+<<<<<<< HEAD:Assets/joshs/playerBullet.prefab
+  m_Script: {fileID: 11500000, guid: d5e8292c178606247a30643a01c81773, type: 3}
+=======
   m_Script: {fileID: 11500000, guid: 7e9eebf769afbb94e8ac9e638f2f6e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -151,8 +158,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3e389b183d825545b55a04a0b1ad55e, type: 3}
+>>>>>>> dfdeaaa2462e1c698a2b22a34975046b7c96e16a:Assets/joshs/prefabs/playerBullet.prefab
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!114 &1883919916599641286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,3 +187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 0
+=======
+  force: 50
+>>>>>>> fdffa6097cc43957fb96e8231f7af9814cb1f7e1
