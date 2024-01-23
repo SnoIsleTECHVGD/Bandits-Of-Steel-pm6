@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class stats : MonoBehaviour
 {
-    public int health;
+    public float health;
     public int attack;
      public int defence;
     public float speed;
     private float bulletForce;
-   
-
-   
-    
 }
 
