@@ -17,6 +17,7 @@ public class DMGonHit : MonoBehaviour
                 Destroy(hitStats.gameObject);
             }
         }
+        
     }
    
 }
