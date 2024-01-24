@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 307295798}
   - component: {fileID: 307295800}
   - component: {fileID: 307295799}
+  - component: {fileID: 307295801}
   m_Layer: 0
   m_Name: ground
   m_TagString: Untagged
@@ -1247,6 +1248,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!65 &307295801
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307295797}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 385.30768, y: 159.3077, z: 0}
+  m_Center: {x: -2, y: -1, z: 0}
 --- !u!1 &332453033
 GameObject:
   m_ObjectHideFlags: 0
@@ -10869,6 +10883,7 @@ GameObject:
   - component: {fileID: 1111406042}
   - component: {fileID: 1111406044}
   - component: {fileID: 1111406043}
+  - component: {fileID: 1111406045}
   m_Layer: 0
   m_Name: colliding layer
   m_TagString: Untagged
@@ -11050,6 +11065,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!65 &1111406045
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111406041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 129.3077, y: 21.307693, z: 0}
+  m_Center: {x: -59, y: 5, z: 0}
 --- !u!1 &1128039362
 GameObject:
   m_ObjectHideFlags: 0
@@ -11701,7 +11729,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11757,6 +11785,7 @@ GameObject:
   - component: {fileID: 1387114936}
   - component: {fileID: 1387114938}
   - component: {fileID: 1387114937}
+  - component: {fileID: 1387114939}
   m_Layer: 0
   m_Name: small objects
   m_TagString: Untagged
@@ -12174,6 +12203,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!65 &1387114939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387114935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 317.9091, y: 122.90909, z: 0}
+  m_Center: {x: 0, y: -1.5, z: 0}
 --- !u!1 &1421418848
 GameObject:
   m_ObjectHideFlags: 0
@@ -12243,6 +12285,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3417519439290010052, guid: 595796032647ae147bb7e20040740eb4, type: 3}
   m_PrefabInstance: {fileID: 3417519439995138675}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1446607800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446607799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347a89d41942d6d42b97825842315315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimationController: {fileID: 1446607807}
 --- !u!4 &1446607803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3417519439290010056, guid: 595796032647ae147bb7e20040740eb4, type: 3}
@@ -12258,7 +12313,7 @@ Animator:
   m_GameObject: {fileID: 1446607799}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e6d90f4d9f2e93341ae493b6ddb9f26e, type: 2}
+  m_Controller: {fileID: 9100000, guid: da3304ea5b95324458e1dc6b5c12860d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12887,12 +12942,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3417519439290010059, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1446607807}
+    - target: {fileID: 3417519439290010059, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: buildUp
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3417519439290010059, guid: 595796032647ae147bb7e20040740eb4, type: 3}
       propertyPath: maxSpeed
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417519439290010063, guid: 595796032647ae147bb7e20040740eb4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 595796032647ae147bb7e20040740eb4, type: 3}
