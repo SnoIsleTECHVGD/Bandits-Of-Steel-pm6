@@ -57,11 +57,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 7325217647198187088}
-  bulletPrefab: {fileID: 3890377347241334485, guid: 7dc1f1d1da3a8724a8a4cbc909313648, type: 3}
+  bulletPrefab: {fileID: 4937398357316037932, guid: 50adbc0b996c09645877633f233ccc62, type: 3}
   bulletForce: 2000
   nextProjectile: 0
   projectileCoolDown: 1
-  playerBullet: {fileID: 0}
+  playerBullet: {fileID: 4937398357316037932, guid: 50adbc0b996c09645877633f233ccc62, type: 3}
 --- !u!1 &2847521392728100437
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,8 +78,8 @@ GameObject:
   - component: {fileID: 3316453244548376001}
   - component: {fileID: 3135086804450135030}
   m_Layer: 0
-  m_Name: player'
-  m_TagString: Untagged
+  m_Name: player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ Transform:
   m_GameObject: {fileID: 2847521392728100437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 12.148964, y: 12.148964, z: 12.148964}
   m_Children:
   - {fileID: 7325217647198187088}
   m_Father: {fileID: 0}
@@ -112,7 +112,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.012927644, y: -0.0077311546}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -123,7 +123,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.12277152, y: 0.2844393}
   m_EdgeRadius: 0
 --- !u!212 &412395509392650188
 SpriteRenderer:
@@ -164,7 +164,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 4192405887423638575, guid: e9329899bb948144ab7a8ce0b315b031, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -196,7 +196,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &3578634162844370330
 MonoBehaviour:
   m_ObjectHideFlags: 0

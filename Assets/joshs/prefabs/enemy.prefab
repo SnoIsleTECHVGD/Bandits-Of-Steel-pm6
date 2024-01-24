@@ -40,14 +40,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6309024758387211964}
   - component: {fileID: 6309024758387211967}
-  - component: {fileID: 6309024758387211965}
   - component: {fileID: 6309024758387211962}
   - component: {fileID: 6309024758387211963}
   - component: {fileID: 206286448143671734}
-  - component: {fileID: 5894450407261896694}
   - component: {fileID: 1035492258364401171}
   - component: {fileID: 4174299826092689918}
   - component: {fileID: 6994195251133170695}
+  - component: {fileID: 8941667367388276182}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Enemy
@@ -121,21 +120,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6309024758387211965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309024758387211966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba77133781b436e4daa279e8c628c9d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7821532795668097106, guid: 888624f101b738842b8566b1aad0f5a6, type: 3}
-  speed: 2
-  distanceBetween: 1000
 --- !u!61 &6309024758387211962
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -198,23 +182,6 @@ MonoBehaviour:
   rotateSpeed: 60
   wobbleAng: 8
   startWobble: 361
---- !u!114 &5894450407261896694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309024758387211966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c5f1f623736fd49891864159baeec3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 3890377347241334485, guid: dcedd4e3bd5ebed47b0f6255f7da23bf, type: 3}
-  bulletpos: {fileID: 4102037435915085619}
-  distance: 20
-  distanceBetween: 30
-  npc: {fileID: 7821532795668097106, guid: 888624f101b738842b8566b1aad0f5a6, type: 3}
 --- !u!114 &1035492258364401171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
-  attack: 0
+  attack: 10
   defence: 0
   speed: 0
 --- !u!114 &4174299826092689918
@@ -245,7 +212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   range: 50
-  maxDistance: 10
+  maxDistance: 1000
 --- !u!114 &6994195251133170695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,3 +225,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e389b183d825545b55a04a0b1ad55e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8941667367388276182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309024758387211966}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba77133781b436e4daa279e8c628c9d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2847521392728100437, guid: b2792eebe7687ca4daa4ebc8cb7b02b1, type: 3}
+  speed: 10
+  distanceBetween: 1000
