@@ -6,15 +6,14 @@ public class playerBulletS : MonoBehaviour
 {
     private GameObject enemy;
     private Rigidbody2D rb;
-    public float force;
+   
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        enemy = GameObject.FindGameObjectWithTag("Enemy");
-
-        Vector3 direction = enemy.transform.position - transform.position;
-        rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
+       
     }
 
     // Update is called once per frame
@@ -22,4 +21,21 @@ public class playerBulletS : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    { stats HitStats = collision.gameObject.GetComponent<stats>();
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.GetComponent<stats>().currentHealth -= 10;
+
+           
+
+        }
+
+        if (HitStats.currentHealth <= 0)
+        {
+           Destroy (HitStats.gameObject);
+        }
+    }
+   
 }
+

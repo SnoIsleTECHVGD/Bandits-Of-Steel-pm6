@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ButtonInfo : MonoBehaviour
 {
-
     public int ItemID;
     public Text PriceText;
     public GameObject ShopManager;
