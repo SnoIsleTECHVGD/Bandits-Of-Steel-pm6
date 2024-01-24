@@ -76,7 +76,7 @@ public class waveSpawner2 : MonoBehaviour
         if (searchCountdown <= 0f)
         {
             searchCountdown = 1f;
-            if (GameObject.FindGameObjectsWithTag("Enemy") == null)
+            if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
             {
                 return false;
 
