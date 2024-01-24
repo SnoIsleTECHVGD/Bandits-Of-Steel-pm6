@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class stats : MonoBehaviour
 {
-    public float health;
+    public float maxHealth;
+    public float currentHealth;
     public int attack;
      public int defence;
     public float speed;

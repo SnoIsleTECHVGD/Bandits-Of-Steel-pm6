@@ -10,9 +10,9 @@ public class DMGonHit : MonoBehaviour
 
         if (hitStats  != null)
         {
-            hitStats.health -= ourStats.attack - hitStats.defence;
+            hitStats.currentHealth -= ourStats.attack - hitStats.defence;
 
-            if (hitStats.health<= 0)
+            if (hitStats.currentHealth<= 0)
             {
                 Destroy(hitStats.gameObject);
             }

@@ -25,13 +25,13 @@ public class playerBulletS : MonoBehaviour
     { stats HitStats = collision.gameObject.GetComponent<stats>();
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.GetComponent<stats>().health -= 10;
+            collision.GetComponent<stats>().currentHealth -= 10;
 
            
 
         }
 
-        if (HitStats.health <= 0)
+        if (HitStats.currentHealth <= 0)
         {
            Destroy (HitStats.gameObject);
         }
