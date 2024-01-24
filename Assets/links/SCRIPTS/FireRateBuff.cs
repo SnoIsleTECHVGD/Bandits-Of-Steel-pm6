@@ -10,6 +10,6 @@ public class FireRateBuff : PowerUpEffect
 
     public override void Apply(GameObject shootPoint)
     {
-        shootPoint.GetComponent<Shooting>().projectileCoolDown += amount;
+        shootPoint.GetComponentInChildren<Shooting>().projectileCoolDown += amount;
     }
 }

@@ -21,14 +21,14 @@ public class waveSpawner2 : MonoBehaviour
     public float waveCountDown;
     private float searchCountdown;
 
-    public SpawnState state =SpawnState.COUNTING;
+    public SpawnState state = SpawnState.COUNTING;
      void Start()
     {
         waveCountDown = timeBetweenWaves;
     }
     void Update()
     {
-
+       
         if (state == SpawnState.WAITING)
         {
             if (!EnemyIsAlive())
@@ -41,16 +41,16 @@ public class waveSpawner2 : MonoBehaviour
             }
         }
        if (waveCountDown <=0)
-        {
+       {
             if (state == SpawnState.SPAWNING)
             {
                 StartCoroutine(SpawnWave (waves[nextwave]));
             }
-        }
-        else
-        {
-            waveCountDown -= Time.deltaTime;
-        }
+       }
+       else
+       {
+           waveCountDown -= Time.deltaTime;
+       }
     }
     void WaveCompleted ()
     {
