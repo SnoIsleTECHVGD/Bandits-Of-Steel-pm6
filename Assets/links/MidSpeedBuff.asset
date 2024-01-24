@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fefa28f583ba4fb24f9750c9e4ec0, type: 3}
   m_Name: MidSpeedBuff
   m_EditorClassIdentifier: 
-  amount: 10
+  amount: 5
