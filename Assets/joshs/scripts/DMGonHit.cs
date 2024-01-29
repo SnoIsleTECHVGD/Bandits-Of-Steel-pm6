@@ -7,10 +7,12 @@ public class DMGonHit : MonoBehaviour
     {
         stats hitStats = collision.gameObject.GetComponent<stats>();
         stats ourStats = GetComponent<stats>();
-
+       
         if (hitStats  != null)
         {
             hitStats.currentHealth -= ourStats.attack - hitStats.defence;
+
+           
 
             if (hitStats.currentHealth<= 0)
             {
